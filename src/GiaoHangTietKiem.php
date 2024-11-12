@@ -2,6 +2,4 @@
 
 namespace TriNguyenDuc\GiaoHangTietKiem;
 
-class GiaoHangTietKiem
-{
-}
+class GiaoHangTietKiem {}
