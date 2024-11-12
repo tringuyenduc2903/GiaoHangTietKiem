@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "tringuyenduc2903/giaohangtietkiem",
+    "description": "GiaoHangTietKiem SDK for Laravel Framework",
     "keywords": [
-        ":vendor_name",
+        "Nguyễn Đức Trí",
         "laravel",
-        ":package_slug"
+        "giaohangtietkiem"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/tringuyenduc2903/giaohangtietkiem",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Nguyễn Đức Trí",
+            "email": "nguyenductri2k3@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,19 +35,19 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "TriNguyenDuc\\GiaoHangTietKiem\\": "src/",
+            "TriNguyenDuc\\GiaoHangTietKiem\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "TriNguyenDuc\\GiaoHangTietKiem\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
     "scripts": {
         "post-autoload-dump": "@composer run prepare",
-        "clear": "@php vendor/bin/testbench package:purge-skeleton --ansi",
+        "clear": "@php vendor/bin/testbench package:purge-giaohangtietkiem --ansi",
         "prepare": "@php vendor/bin/testbench package:discover --ansi",
         "build": [
             "@composer run prepare",
@@ -73,10 +73,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "TriNguyenDuc\\GiaoHangTietKiem\\GiaoHangTietKiemServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "GiaoHangTietKiem": "TriNguyenDuc\\GiaoHangTietKiem\\Facades\\GiaoHangTietKiem"
             }
         }
     },
